@@ -23,7 +23,7 @@ export default function Home() {
     }
 
     // Fetching all posts
-    fetch("http://localhost:5000/allposts", {
+    fetch("https://instagram-mern-stack.onrender.com/allposts", {
       headers: {
         Authorization: "Bearer " + localStorage.getItem("jwt"),
       },
