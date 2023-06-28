@@ -2,11 +2,11 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "postinstall": "npm install"
+    "build": "echo 'Build complete.'",
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
