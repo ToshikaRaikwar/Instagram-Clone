@@ -8,7 +8,7 @@ import SignIn from "./components/SignIn";
 import Profile from "./components/Profie";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import CreatePost from "./components/CreatePost";
+import CreatePost from "./components/Createpost";
 import { LoginContext } from "./context/LoginContext";
 import Modal from "./components/Modal";
 import UserProfile from "./components/UserProfile";
